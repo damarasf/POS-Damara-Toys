@@ -27,7 +27,7 @@ DB_DATABASE=example_app
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-*Opsional*
+**Optional**
 ```bash
 APP_NAME=Laravel
 APP_ENV=local
