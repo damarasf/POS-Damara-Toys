@@ -1,12 +1,12 @@
-## Instalasi
+## Installation
 #### Via Git
 ```bash
 git clone https://github.com/damarasf/POS-Damara-Toys.git
 ```
 
 
-### Setup Aplikasi
-Jalankan perintah 
+### Setup Application
+Run this command
 ```bash
 composer update
 ```
@@ -14,11 +14,11 @@ atau:
 ```bash
 composer install
 ```
-Copy file .env dari .env.example
+Copy .env file, from .env.example
 ```bash
 cp .env.example .env
 ```
-Konfigurasi file .env
+Configuration .env
 ```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -27,7 +27,7 @@ DB_DATABASE=example_app
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-Opsional
+*Opsional*
 ```bash
 APP_NAME=Laravel
 APP_ENV=local
@@ -43,11 +43,11 @@ Migrate database
 ```bash
 php artisan migrate
 ```
-Seeder table User, Pengaturan
+Seeder table User, Settings
 ```bash
 php artisan db:seed
 ```
-Menjalankan aplikasi
+Run the App
 ```bash
 php artisan serve
 ```
